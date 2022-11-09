@@ -16,7 +16,7 @@
         <dc:creator>Gloria Re Calegari (Cefriel)</dc:creator>
         <dc:creator>Irene Celino (Cefriel)</dc:creator>
         <dc:publisher>Cefriel</dc:publisher>
-        <dc:title>The KHUB procedure annotation ontology</dc:title>
+        <dc:title>The Industrial Procedure Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <vann:preferredNamespacePrefix>kh-proc</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://knowledge.c-innovationhub.com/khub-procedure#</vann:preferredNamespaceUri>

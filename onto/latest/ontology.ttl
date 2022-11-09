@@ -13,7 +13,7 @@
                                                                                                    "Gloria Re Calegari (Cefriel)" ,
                                                                                                    "Irene Celino (Cefriel)" ;
                                                          <http://purl.org/dc/elements/1.1/publisher> "Cefriel" ;
-                                                         <http://purl.org/dc/elements/1.1/title> "The KHUB procedure annotation ontology" ;
+                                                         <http://purl.org/dc/elements/1.1/title> "The Industrial Procedure Ontology" ;
                                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-proc" ;
                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/khub-procedure#" ;

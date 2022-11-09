@@ -5,7 +5,7 @@
 <https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/dc/elements/1.1/creator> "Gloria Re Calegari (Cefriel)" .
 <https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/dc/elements/1.1/creator> "Irene Celino (Cefriel)" .
 <https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/dc/elements/1.1/publisher> "Cefriel" .
-<https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/dc/elements/1.1/title> "The KHUB procedure annotation ontology" .
+<https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/dc/elements/1.1/title> "The Industrial Procedure Ontology" .
 <https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-proc" .
 <https://knowledge.c-innovationhub.com/khub-procedure#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/khub-procedure#" .

@@ -117,7 +117,7 @@
     "@value" : "Cefriel"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
-    "@value" : "The KHUB procedure annotation ontology"
+    "@value" : "The Industrial Procedure Ontology"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
