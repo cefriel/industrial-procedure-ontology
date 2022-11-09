@@ -1,0 +1,27 @@
+<h2 id="desc" class="list">The Industrial Procedure Ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This section describes the classes and properties in detail through a textual description and a diagram of the ontology.</span>
+
+<h3 id="examples" class="list">Diagram</h3>
+
+<span class="markdown">
+The diagram in this section is modeled using the notation presented below.
+</span>
+
+<p align="center"><img src="img/kh-proc-legend.png" alt="Legend" height="150"></p>
+
+<span class="markdown">
+The Industrial Procedure Ontology consists of 4 main classes: _Plan_, _Step_, _Topic_ and _TopicAnnotation_. 
+
+A procedure is intended as the set of activities to perform a specific task and it is modelled by the [p-plan:Plan](http://vocab.linkeddata.es/p-plan/index.html#Plan) class. The procedure is described by the pattern "A procedure to do an _Action_ on a _Component_ with a _Tool_". The Object Properites _kh-proc:implementsAction_, _kh-proc:appliedToComponent_ and _kh-proc:requiresTools_ implements these associations between the _Plan_ class, on one side, and respectively the [kh:Action](https://knowledge.c-innovationhub.com/khub-onto#Action), the  [kh:Component](https://knowledge.c-innovationhub.com/khub-onto#Component) and the [kh:Tool](https://knowledge.c-innovationhub.com/khub-onto#Tool) class, on the other side.
+
+Each atomic activity is modelled by the [p-plan:Step](http://vocab.linkeddata.es/p-plan/index.html#Step) class. A Plan is composed of one or multilple Steps, which must be executed in order. The Object Property _kh-proc:nextStep_ defines the order of execution of the steps whereas the _kh-proc:startsWith_ and _kh-proc:endsWith_ properties indicate the first and last activities of a Plan. 
+A Plan may be included as a Step of another plan and this association is expressed by the Object Property _kh-proc:isDecomposedAsPlan_.
+
+The [TopicAnnotation](https://knowledge.c-innovationhub.com/khub-onto#TopicAnnotation) describes the semantic annotations created on the documents and the [Topic](https://knowledge.c-innovationhub.com/khub-onto#Topic) class represents what can be annotated in a document.
+
+</span>
+
+<p align="center"><img src="img/kh-proc-diagram.png" alt="Core" height="600"></p>
+
+</span>
